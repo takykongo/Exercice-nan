@@ -23,14 +23,16 @@ li a:hover{
 }
 .texte{
     position: absolute ;
-    font-size: 1.5em;
+    font-size: 2.5em;
     line-height: 1.3em;
     color:pink;
     z-index: 6;
     top: 50%;
     left: 50%;
     text-align: center;
+    transform: translate(-50%,-50%);
     z-index: 1;
+    text-transform: uppercase;
 }
 video{
     position: absolute;
@@ -69,5 +71,5 @@ header
     height:100vh;
     width: 100vw;
     left: 0px;
-    top: 0px;
+    top: 0px;                  
 }
