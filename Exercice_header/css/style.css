@@ -5,7 +5,7 @@ ul{
     overflow: hidden;
     position: absolute;
     left: 40%;
-    z-index: 4;
+    z-index: 1;
 }
 li{
     float: left;
@@ -27,10 +27,10 @@ li a:hover{
     line-height: 1.3em;
     color:pink;
     z-index: 6;
-    top: 30%;
+    top: 50%;
     left: 50%;
     text-align: center;
-    z-index: 2;
+    z-index: 1;
 }
 video{
     position: absolute;
@@ -39,7 +39,7 @@ video{
     left: 0px;
     top: 0px;
     object-fit: cover;
-    z-index: 1;
+    z-index: 0;
 }
 body,*{
     padding: 0px;
@@ -52,7 +52,7 @@ body,*{
     top: 5%;
     left: 15%;
     transform: translate(-50%,-50%);
-    z-index: 4;
+    z-index: 1;
 }
 h1{
     color:pink;
@@ -60,4 +60,14 @@ h1{
     font-weight: bold;
     text-align: center;
     padding: 23px 26px;
+}
+.para{
+    text-align: justify;
+}
+header
+{
+    height:100vh;
+    width: 100vw;
+    left: 0px;
+    top: 0px;
 }
