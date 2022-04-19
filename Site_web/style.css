@@ -13,6 +13,17 @@ h1{
     font-size: 45px;
     color: #444;
 }
+h2{
+   color: #444;
+   font-size: 55px; 
+}
+ul{
+    list-style: none;
+}
+a{
+    text-decoration: none;
+    color: #444;
+}
 .wrapper{
     width: 940px;
     margin: 0 auto;
@@ -33,4 +44,34 @@ header h1{
 }
 header nav{
     float: right;
+    margin-top: 50px;
+}
+header nav ul li{
+    float: left;
+    display: inline-block;
+}
+header nav ul li a{
+    text-transform: uppercase;  
+    font-weight: bold;
+    margin-right: 20px;
+}
+
+/* Image principale */
+
+#image-principal{
+    height: 580px;
+    background:url('/images/paula-borowska-cKYgt4K0g5w-unsplash.jpg') center;
+}
+#image-principal h2{
+    font-weight: normal;
+    text-transform: uppercase;
+    text-align: center;
+    padding: 150px 0 40px 0;
+}
+.button-1{
+    display: block;
+    width: 120px;
+    height: 50px;
+    background: #ff7a00;
+    color: #fff;
 }
