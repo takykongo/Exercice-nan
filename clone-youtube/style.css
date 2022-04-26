@@ -46,6 +46,11 @@ li a:hover:not(.active) {
     border-width: 1px solid grey;
     margin: 10px 0;
 }
+.side_nav{
+    width: 20%;
+}
 .le_contenu{
+    width: 80%;
     margin: 5px;
+   float: right;
 }
