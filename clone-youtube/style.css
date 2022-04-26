@@ -36,6 +36,7 @@ li a:hover:not(.active) {
   }
 .le_corps{
     background-color: #f1f1f1;
+    justify-content: space-around;
 }
 .sep{
     display: block;
@@ -44,4 +45,7 @@ li a:hover:not(.active) {
     border-style: inset;
     border-width: 1px solid grey;
     margin: 10px 0;
+}
+.le_contenu{
+    margin: 5px;
 }
