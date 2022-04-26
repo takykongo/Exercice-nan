@@ -51,6 +51,7 @@ img{
     bottom: -500px;
     perspective: 2000px;
     perspective-origin: top;
+    overflow: hidden;
 }
 .card{
     position: relative;
@@ -80,21 +81,25 @@ p{
 #third_para{
     background-color: white;
     opacity: 0.5;
-    bottom: 0;
+    bottom: -50%;
     width: 100%; 
 }
 #div_img3:hover .card{
     transform: rotateY(180deg);
 }
 .card-front,
-.card-back
-{
+.card-back{
     width: 300px;
     height: 100%;
     position: absolute;
+    overflow: hidden;
     backface-visibility: hidden;
     -webkit-backface-visibility: hidden;
 }
 .card-back{
     transform: rotateY(180deg);
+}
+.card-back p{
+    width: 300px;
+    height: 100%;  
 }
