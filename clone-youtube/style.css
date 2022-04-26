@@ -42,5 +42,6 @@ li a:hover:not(.active) {
     unicode-bidi: isolate;
     overflow: hidden;
     border-style: inset;
-    border-width: 1px;
+    border-width: 1px solid grey;
+    margin: 10px 0;
 }
