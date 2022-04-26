@@ -1,0 +1,36 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+.container-header{
+    display: flex;
+    justify-content: space-around;
+    height: 56px;
+    width: 100%;
+    border: 2px solid black;
+}
+ul{
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    width: 240px;
+    background-color: #f1f1f1;
+    height: 100%;
+    position: fixed;
+    overflow: auto;
+}
+li a{
+    display: block;
+    color: #000;
+    padding: 12px 24px;
+    text-decoration: none;
+}
+li a.active{
+    background-color: blanchedalmond;
+    color: black;
+}
+li a:hover:not(.active) {
+    background-color: grey;
+    color: white;
+  }
