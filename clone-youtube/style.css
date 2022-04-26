@@ -15,7 +15,7 @@ ul{
     margin: 0;
     padding: 0;
     width: 240px;
-    background-color: #f1f1f1;
+    background-color: white;
     height: 100%;
     position: fixed;
     overflow: auto;
@@ -31,6 +31,16 @@ li a.active{
     color: black;
 }
 li a:hover:not(.active) {
-    background-color: grey;
-    color: white;
+    background-color: #f1f1f1;
+    color: black;
   }
+.le_corps{
+    background-color: #f1f1f1;
+}
+.sep{
+    display: block;
+    unicode-bidi: isolate;
+    overflow: hidden;
+    border-style: inset;
+    border-width: 1px;
+}
