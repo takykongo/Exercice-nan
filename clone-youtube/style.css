@@ -2,15 +2,63 @@
     margin: 0;
     padding: 0;
     box-sizing: border-box;
+    font-family: Roboto, Arial, sans-serif;
+}
+body{
+    width: 100vw;
+    height: 100vh;
+}
+.logo{
+    display: flex;
+    justify-content: space-between;
+    position: absolute;
+    left: 1px;
+    top: 15px;
+    left: 25px;
+}
+.log1{
+    height: 24px;
+    width: 24px;
+    font-size: 25px;
+}
+.log2{
+    
+    font-size: 35px;
+    color: red;
+    margin-left: 25px;
+    transform: translate(0,-5px);
+}
+.log3{
+    height: 24px;
+    width: 24px;
+    font-size: 25px;
+    font-weight: bolder;
+    letter-spacing: -2px;
+}
+.recherche{
+    position: absolute;
+    top: 10px;
+    display: flex;
+    justify-content: space-between;
+}
+input{
+    height: 40px;
+    width: 500px;
+    font-size :24px ;
+}
+.connexion{
+    position: absolute;
+    right: 0;
 }
 .container-header{
     display: flex;
     justify-content: space-around;
     height: 56px;
     width: 100%;
-    border: 2px solid black;
+    position: fixed;
+    top: 0px;
 }
-ul{
+.side_nav ul{
     list-style-type: none;
     margin: 0;
     padding: 0;
@@ -19,21 +67,28 @@ ul{
     height: 100%;
     position: fixed;
     overflow: auto;
+    top: 6%;
 }
-li a{
+.side_nav ul li a{
     display: block;
     color: #000;
     padding: 12px 24px;
     text-decoration: none;
 }
-li a.active{
+.side_nav ul li a.active{
     background-color: blanchedalmond;
     color: black;
 }
-li a:hover:not(.active) {
+.side_nav ul li a:hover:not(.active) {
     background-color: #f1f1f1;
     color: black;
   }
+.para_nav{
+    color: #606060;
+    font-size: 1rem;
+    text-transform: uppercase;
+    text-align: center;
+}
 .le_corps{
     background-color: #f1f1f1;
     justify-content: space-around;
@@ -50,7 +105,58 @@ li a:hover:not(.active) {
     width: 20%;
 }
 .le_contenu{
-    width: 80%;
+    width: 87vw;
+    height: 100vh;
     margin: 5px;
-   float: right;
+    background-color: #f1f1f1;
+    position: fixed;
+    right: 0;
+    top: 5.1%;
+}
+.niv_1{
+    position: fixed;
+    top: 5.5%;
+    width: 100%;
+    height: 10%;
+}
+.onglets{
+    opacity: 0.9;
+    background-color:white;
+}
+.onglets ul{
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+}
+.onglets ul li{
+    float: left;
+    border: 1px black solid;
+    border-radius: 25px;
+    margin: 10px;
+    background-color: #f1f1f1;
+    overflow: hidden;
+}
+.onglets ul li a{
+    display: block;
+    color: black;
+    text-align: center;
+    padding: 10px 16px;
+    text-decoration: none;
+}
+.onglets ul li a.active{
+    color: white;
+    background-color: black;
+}
+.sep_1{
+    display: block;
+    unicode-bidi: isolate;
+    overflow: hidden;
+    border-style: inset;
+}
+.sep_2{
+    display: block;
+    unicode-bidi: isolate;
+    overflow: hidden;
+    border-style: inset;
 }
