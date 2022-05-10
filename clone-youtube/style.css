@@ -50,6 +50,17 @@ input{
     height: 40px;
     width: 70px;
 }
+.le_grid{
+    height: 30px;
+    width: 30px;
+}
+.micro{
+    color: black;
+    font-size: 25px;
+    position: absolute;
+    top: 5px;
+    left: 580px;
+}
 .connexion{
     position: absolute;
     right: 0;
