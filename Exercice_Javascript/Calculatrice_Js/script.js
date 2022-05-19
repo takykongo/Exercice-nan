@@ -56,6 +56,10 @@ function racine(){
     ecran.value=resultat;
 }
 function py(){
-    let resultat = Math.PI(ecran.value) += " ";
-    ecran.value=resultat;
+    ecran = document.getElementById("ecran");
+    var resultat = Math.PI += " ";
+    ecran.value += resultat;
+}
+function puissance() {
+    
 }
