@@ -1,0 +1,76 @@
+<!DOCTYPE html>
+<html lang="fr">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Calculatrice</title>
+    <link rel="stylesheet" href="/style.css">
+    <script src="/script.js"></script>
+</head>
+<body>
+    <h1>Calculatrice</h1>
+    <div id="contenu_calculatrice">
+        <table>
+            
+            <tr>
+                <td colspan="6"><input id="ecran" type="text"></td>
+            </tr>
+            
+            <tr style="height: 20px;"></tr>
+        
+            <tr>
+                <td><button>X^Y</button></td>
+                <td><button>X^2</button></td>
+                <td><button>|x|</button></td>
+                <td><button>Ln</button></td>
+                <td><button>Log</button></td>
+                <td><button>Sin</button></td>
+            </tr>
+            <tr>
+                <td><button>Cos</button></td>
+                <td><button>Tan</button></td>
+                <td><button>√X</button></td>
+                <td><button>Expo</button></td>
+                <td><button>On</button></td>
+                <td><button>2nd</button></td>
+            </tr>
+            
+            <tr style="height: 20px;"></tr>
+            
+            <tr>
+                <td><button onclick="afficher('1')">1</button></td>
+                <td><button onclick="afficher('2')">2</button></td> 
+                <td><button onclick="afficher('3')">3</button></td>
+                <td> </td>
+                <td><button>DEL</button></td>
+                <td><button>AC</button></td>
+            </tr>
+            <tr>
+                <td><button onclick="afficher('4')">4</button></td>
+                <td><button onclick="afficher('5')">5</button></td>
+                <td><button onclick="afficher('7')">6</button></td>
+                <td> </td>
+                <td><button onclick="afficher('*')">x</button></td>
+                <td><button onclick="afficher('/')">/</button></td>
+            </tr>
+            <tr>
+                <td><button onclick="afficher('7')">7</button></td>
+                <td><button onclick="afficher('8')">8</button></td>
+                <td><button onclick="afficher('9')">9</button></td>
+                    <td> </td>
+                <td><button onclick="afficher('+')">+</button></td>
+                <td><button onclick="afficher('-')">-</button></td>
+            </tr>
+            <tr>
+                <td><button onclick="afficher('0')">0</button></td>
+                <td><button onclick="afficher('.')">.</button></td>
+                <td><button onclick="afficher('(')">(</button></td>
+                <td> </td>
+                <td><button onclick="afficher(')')">)</button></td>
+                <td><button onclick="calculer()">=</button></td>
+            </tr>
+        </table>
+    </div>
+</body>
+</html>
