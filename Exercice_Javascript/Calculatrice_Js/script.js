@@ -8,4 +8,9 @@ function calculer()
     let b = eval(a) 
     document.getElementById("ecran").value = b 
 }
+function effacer()
+{
+    document.getElementById("ecran").value = " ";
+}
+
 
