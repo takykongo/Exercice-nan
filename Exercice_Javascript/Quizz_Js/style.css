@@ -1,0 +1,59 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+#container{
+    display: flex;
+    justify-content: space-between;
+    position: relative;
+}
+.quest{
+    border: 2px black solid;
+    width: 500px;
+    height: 250px;
+    margin: 30px 0px 0px 100px;
+}
+#temps{
+    border: 2px black solid;
+    width: 500px;
+    height: 300px;
+    margin-top: 30px;
+}
+#note{
+    border: 2px black solid;
+    width: 500px;
+    height: 900px;
+    margin-top: 30px;
+    margin-right: 100px;
+}
+h3{
+    text-align: center;
+    margin-top: 15px;
+    text-decoration: underline;
+}
+.questionnaire{
+    padding: 30px;
+}
+label{
+    font-size: 1.5rem;
+}
+p{
+    margin: 15px;
+}
+#note{
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+}
+.ntes{
+    display: inline-block;
+    font-size: 5rem;
+}
+.txt{
+    font-size: 2rem;
+    text-align: center;
+}
+#sec, #sec_txt{
+    display: inline;
+}

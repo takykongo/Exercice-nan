@@ -1,0 +1,55 @@
+[
+    {
+        "page":{
+            "numpage":1,
+            "question1":{
+                "titre":"La capitale économique de la Côte d'ivoire ?",
+                "reponse1":"Abidjan",
+                "reponse2":"Yamoussoukro",
+                "reponse3":"Bouaké"
+            },
+            "question2":{
+                "titre":"La plus grande commune d'Abidjan ?",
+                "reponse1":"Attécoubé",
+                "reponse2":"Plateau",
+                "reponse3":"Yopougon"
+            },
+            "question3":{
+                "titre":"Quelle est la capitale du Ghana ?",
+                "reponse1":"Lomé",
+                "reponse2":"Accra",
+                "reponse3":"Bamako"
+            },
+            "question4":{
+                "titre":"Quelle est la capitale du Mali ?",
+                "reponse1":"Bamako",
+                "reponse2":"Conakry",
+                "reponse3":"Rabba"
+            },
+            "question5":{
+                "titre":"Quelle est la capitale du Togo ?",
+                "reponse1":"Lomé",
+                "reponse2":"Cotonou",
+                "reponse3":"Bamako"
+            },
+            "question6":{
+                "titre":"Quelle est la capitale du Sénégal ?",
+                "reponse1":"Yamoussoukro",
+                "reponse2":"Dakar",
+                "reponse3":"Caire"
+            }
+        }
+    },
+    {
+        "page":{
+            "numpage":1,
+                "question1":"reponse1",
+                "question2":"reponse3",
+                "question3":"reponse2",
+                "question4":"reponse1",
+                "question5":"reponse1",
+                "question6":"reponse2"
+        }
+    }
+    
+]

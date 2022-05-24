@@ -1,0 +1,116 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="/style.css">
+    <title>Quizz</title>
+</head>
+<body>
+    <div id="div_parent">
+        <div id="container">
+            <div id="question">
+                <div id="quest1" class="quest">
+                    <h3>La capitale économique de la Côte d'ivoire ?</h3>
+                    <div class="questionnaire">
+                        <p><label for="abidjan">
+                            <input type="checkbox" name="q1" id="abbidjan" value="abidjan"> Abidjan
+                        </label></p>
+                        <p><label for="yamoussoukro">
+                            <input type="checkbox" name="q1" id="yamoussoukro" value="yamoussoukro"> Yamoussoukro
+                        </label></p>
+                        <p><label for="bouake">
+                            <input type="checkbox" name="q1" id="bouake" value="bouake"> Bouaké
+                        </label></p>
+                    </div>
+                </div>
+                <div id="quest2" class="quest">
+                    <h3>La plus grande commune d'Abidjan ?</h3>
+                    <div class="questionnaire">
+                        <p><label for="attecoube">
+                            <input type="checkbox" name="q2" id="attecoube" value="attecoube"> Attécoubé
+                        </label></p>
+                        <p><label for="plateau">
+                            <input type="checkbox" name="q2" id="plateau" value="plateau"> Plateau
+                        </label></p>
+                        <p><label for="yop">
+                            <input type="checkbox" name="q2" id="yop" value="yopougon"> Yopougon
+                        </label></p>
+                    </div>
+                </div>
+                <div id="quest3" class="quest">
+                    <h3>Quelle est la capitale du Ghana ?</h3>
+                    <div class="questionnaire">
+                        <p><label for="lome">
+                            <input type="checkbox" name="q3" id="lome" value="lome"> Lomé
+                        </label></p>
+                        <p><label for="accra">
+                            <input type="checkbox" name="q3" id="accra" value="accra"> Accra
+                        </label></p>
+                        <p><label for="bamako">
+                            <input type="checkbox" name="q3" id="bamako" value="bamako"> Bamako
+                        </label></p>
+                    </div>
+                </div>
+                <div id="quest4" class="quest">
+                    <h3>Quelle est la capitale du Mali ?</h3>
+                    <div class="questionnaire">
+                        <p><label for="bamako">
+                            <input type="checkbox" name="q4" id="bamako" value="bamako"> Bamako
+                        </label></p>
+                        <p><label for="conakry">
+                            <input type="checkbox" name="q4" id="conakry" value="conakry"> Conakry
+                        </label></p>
+                        <p><label for="rabba">
+                            <input type="checkbox" name="q4" id="rabba" value="rabba"> Rabba
+                        </label></p>
+                    </div>
+                </div>
+                <div id="quest5" class="quest">
+                    <h3>Quelle est la capitale du Togo ?</h3>
+                    <div class="questionnaire">
+                        <p><label for="lome">
+                            <input type="checkbox" name="q5" id="lome" value="lome"> Lomé
+                        </label></p>
+                        <p><label for="cotonou">
+                            <input type="checkbox" name="q5" id="cotonou" value="cotonou"> Cotonou
+                        </label></p>
+                        <p><label for="bamako">
+                            <input type="checkbox" name="q5" id="bamako" value="bamako"> Bamako
+                        </label></p>
+                    </div>
+                </div>
+                <div id="quest6" class="quest">
+                    <h3>Quelle est la capitale du Sénégal ?</h3>
+                    <div class="questionnaire">
+                        <p><label for="yakro">
+                            <input type="checkbox" name="q6" id="yakro" value="yamoussoukro"> Yamoussoukro
+                        </label></p>
+                        <p><label for="dakar">
+                            <input type="checkbox" name="q6" id="dakar" value="accra"> Dakar
+                        </label></p>
+                        <p><label for="caire">
+                            <input type="checkbox" name="q6" id="caire" value="caire"> Caire
+                        </label></p>
+                    </div>
+                </div>
+            </div>
+            <div id="temps">
+                <p id="tim" class="txt">Time</p>
+                <p id="sec" class="txt">60</p>
+                <p id="sec_txt" class="txt">sec(s)</p>
+            </div>
+            <div id="note">
+                <p id="nte" class="ntes"> 00 </p>
+                <p class="ntes"> / </p>
+                <p class="ntes"> 20 </p>
+            </div>
+        </div>
+    </div>
+    <button onclick="effacer()" onload="decompte()">Essai</button>
+
+
+    <script src="/script.js"></script>
+</body>
+</html>
